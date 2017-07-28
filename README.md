@@ -1,6 +1,34 @@
-# Angular2Exercise
+# Angular 2 - Forms Exercise
+
+Workshop Exercise on Angular 2 Forms.
+
+The main purpose of this exercise is to get familiar with Angular 2 forms development concepts.
+
+## Required
+
+For this exercise you need to have [NodeJS](https://nodejs.org/en/) installed.
+
+## Exercise
+
+Your goal is to create a simple payment form with the following specs
+
+1. FirstName : required and no more than 100 characters long
+2. LastName: required
+3. Credit-Card: required and provides 3 fields
+
+    a. Cardholder's name: required
+
+    b. Card number: required with the following pattern /5[1-5]{3}-[1-5]{4}-[1-5]{4}-[1-5]{4}/g
+
+    c. CCV: required, 3 digit number
+
+You may use the Template Driven approach, however the Reactive one is preferred mostly.
+
+## Guidelines
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
+
+Please spend time to familiarize with the structure of the code.
 
 ## Development server
 
